@@ -1,0 +1,46 @@
+.education-form {
+  padding: 36px 72px;
+  margin: 0px 350px;
+  margin-bottom: 36px;
+  min-width: 800px;
+  background-color: rgba(255, 255, 255, 0.322);
+  backdrop-filter: blur(6rem);
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.068) 0px 40px 40px 0px;
+}
+
+.education-form h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  color: rgb(48, 52, 61);
+  margin-bottom: 24px;
+}
+
+#education__form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+
+.education__input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.education__input label {
+  font-size: 14px;
+  color: rgba(29, 47, 85, 0.479);
+}
+
+.education__input input {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 50px;
+  background-color: rgba(29, 47, 85, 0.075);
+}
+
+.education__input input:focus {
+  outline: none;
+}

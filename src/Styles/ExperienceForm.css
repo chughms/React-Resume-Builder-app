@@ -1,0 +1,61 @@
+.experience-form {
+  padding: 48px 72px;
+  padding-bottom: 60px;
+  margin-bottom: 24px;
+  /* margin-left: 250px; */
+  flex: 1 0 10%;
+  background-color: rgba(255, 255, 255, 0.322);
+  backdrop-filter: blur(6rem);
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.068) 0px 40px 40px 0px;
+  position: relative;
+}
+
+.experience-form h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  color: rgb(48, 52, 61);
+  margin-bottom: 24px;
+}
+
+.experience-form img {
+  width: 12px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  filter: brightness(0);
+  opacity: 0.2;
+}
+
+.experience-form img:hover {
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+#experience__form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.experience__input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.experience__input label {
+  font-size: 14px;
+  color: rgba(29, 47, 85, 0.479);
+}
+
+.experience__input input {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 50px;
+  background-color: rgba(29, 47, 85, 0.075);
+}
+
+.experience__input input:focus {
+  outline: none;
+}

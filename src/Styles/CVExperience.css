@@ -1,0 +1,23 @@
+.cv-experience__main {
+    margin-bottom: 16px;
+}
+
+.cv-experience__main p{
+    font-size: 12px;
+}
+
+.cv-experience__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cv-experience__header p {
+    color: rgba(29, 47, 85, 0.479);
+    font-style: italic;
+    font-size: 12px;
+}
+
+#cv-experience__company-details {
+    color: rgba(29, 47, 85, 0.479);
+    font-style: italic;
+}

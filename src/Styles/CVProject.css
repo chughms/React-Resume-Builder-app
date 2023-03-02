@@ -1,0 +1,22 @@
+.cv-project__main {
+    margin-bottom: 16px;
+}
+
+.cv-project__main p{
+    font-size: 12px;
+}
+
+.cv-project__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cv-project__header p {
+    color: rgba(29, 47, 85, 0.479);
+    font-style: italic;
+}
+
+#cv-project__tech {
+    color: rgba(29, 47, 85, 0.479);
+    font-style: italic;
+}

@@ -1,0 +1,22 @@
+.addbutton__main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.322);
+  backdrop-filter: blur(6rem);
+  padding: 16px;
+  border-radius: 20px;
+  transition: transform 0.2s ease;
+}
+
+.addbutton__main:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.addbutton__main img {
+  width: 16px;
+  border-radius: 20px;
+  filter: brightness(0);
+  opacity: 0.2;
+}

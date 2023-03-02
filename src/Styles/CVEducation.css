@@ -1,0 +1,21 @@
+.cv-education__main {
+    margin-bottom: 16px;
+}
+
+.cv-education__main p{
+    font-size: 12px;
+}
+
+.cv-education__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cv-education__header p {
+    color: rgba(29, 47, 85, 0.479);
+}
+
+#cv-education__major {
+    font-style: italic;
+    color: rgba(29, 47, 85, 0.479);
+}
